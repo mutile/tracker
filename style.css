@@ -77,7 +77,7 @@ justify-content: center;
 .conten div.card{	
 color:black !important;
 width: 200px;
-height: 90px;
+/*height: 90px;*/
 border: 1px solid black;
 border-radius: 5px;
 margin: 30px auto;
@@ -89,14 +89,14 @@ justify-content: center;
 
 }
 .conten{
-border: 1px solid blue;
-width: 800px;
-height: 550px;
-margin: auto;
+background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/cover1.jpg);
+background-repeat:no-repeat;
+background-size: cover;
+background-position:center;
+height:100vh;
 
 }
-body{
-}
+
 .home-img {
 
 background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.5)) ,url(puppy.jpeg);
@@ -117,12 +117,6 @@ font-size: 20px;
 
 }
 
-.conten {
-background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/cover.png);
-background-repeat:no-repeat;
-background-size: cover;
-background-position:center;
-}
 .content{
 background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(sunset.jpeg);
 height: 200px;
