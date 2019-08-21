@@ -1,0 +1,177 @@
+nav{
+padding: 0;
+margin: 0;
+background-color: rgba(0, 0, 255, 0.5);
+}
+nav ul{
+background:red;
+color:green;
+text-align: center;
+}
+nav ul li{
+display: inline-block;
+font-size: 20px;
+font-weight:bold;
+text-transform: capitalize;
+}
+nav ul li a{
+display:block;
+text-decoration: none;
+color: black;
+padding: 10px;
+text-align: center;
+}
+nav ul li a:hover{
+color:green;
+}
+.main{
+	height:500px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.5)) ,url(puppy.jpeg);
+ 	background-repeat:no-repeat;
+	background-size: cover;
+	background-position:center;
+
+}
+.main p{
+font-family:verdana;
+font-size:20px;
+text-align:center;
+padding-top: 150px;
+color:rgba(255, 255, 255, 0.5);
+text-transform:capitalize;
+
+}
+
+div input[type="button"]{
+font-family:;
+font-size:20px;
+color:rgba(0, 0, 0, 0.8);
+text-transform:capitalize;
+background-color: green;
+border-radius: 4px;
+border: none;
+margin-left: 630px;
+width:100px;
+height:40px;
+
+
+}
+div input:hover{
+
+color:#000;
+}
+
+.content div.card{	
+color:black !important;
+width: 200px;
+height: 90px;
+border: 1px solid black;
+border-radius: 5px;
+float:left;
+margin:  32px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.conten div.card{	
+color:black !important;
+width: 200px;
+height: 90px;
+border: 1px solid black;
+border-radius: 5px;
+margin: 30px auto;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+	
+
+}
+.conten{
+border: 1px solid blue;
+width: 800px;
+height: 550px;
+margin: auto;
+
+}
+body{
+height: 650px;
+background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.5)) ,url(puppy.jpeg);
+background-repeat:no-repeat;
+background-size: cover;
+background-position:center;
+}
+.content div.card p{
+color: rgba(255, 255, 255, 0.4);
+font-weight: bold;
+}
+h4{
+text-align: center;
+color: green;
+font-weight: bold;;
+font-size: 20px;
+
+}
+.content{
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(sunset.jpeg);
+height: 200px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.foot{
+text-align: center;
+color: rgba(255, 255, 255, 0.6);
+}
+.content,.foot{
+text-align: center;
+color: rgba(255, 255, 255, 0.6);
+}
+
+div input[type="text"]{
+border-radius: 4px
+width:100%;
+height:40px;
+margin-bottom: 5px;
+}
+div input[type="telephone"]{
+border-radius: 4px;
+width:100%;
+height:40px;
+margin-bottom: 5px;
+}
+div input[type="radio"]{
+margin-bottom: 5px;
+}
+div select{
+border-radius: 4px;
+width:100%;
+height:40px;
+margin-bottom: 5px;
+}
+div textarea{
+border-radius: 4px;
+width:100%;
+height:40px;
+margin-bottom: 5px;
+}
+form{
+width:50%;
+margin:auto;
+padding:50px;
+border: 1px solid black;
+height:auto;
+
+}
+.nancy{
+text-justify:center;
+text-align:center;
+font-size:18px;
+border-style:solid;
+border-width:2px;
+background-color:green;
+height:200px;
+width:50px;
+padding:20px;
+margin:auto;
+}
