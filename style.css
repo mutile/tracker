@@ -1,7 +1,7 @@
 nav{
 padding: 0;
 margin: 0;
-background-color: rgba(3, 166, 120, 1);
+background-color:rgba(35, 203, 167, 1);
 }
 nav ul{
 background: rgba(3, 166, 120, 1)
@@ -26,7 +26,7 @@ color: white;
 }
 .main{
 	height:500px;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.5)) ,url(puppy.jpeg);
+	background-color:rgba(54, 215, 183, 1); 
  	background-repeat:no-repeat;
 	background-size: cover;
 	background-position:center;
@@ -184,6 +184,8 @@ height:600px;
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
+padding:10px;
+
 }
 .area{
 
@@ -206,4 +208,5 @@ width: 50rem;
 height: 30rem;
 margin: auto;
 } 
-}
+#myp {
+margin-top:60px;
